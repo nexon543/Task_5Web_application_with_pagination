@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<planet>
+    <name>
+        Mercury
+    </name>
+    <diameter>
+        4880
+    </diameter>
+    <orbitalPeriod>
+        88
+    </orbitalPeriod>
+    <yearOfDiscovering>
+        1631
+    </yearOfDiscovering>
+</planet>
