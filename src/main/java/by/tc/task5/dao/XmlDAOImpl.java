@@ -1,10 +1,12 @@
 package by.tc.task5.dao;
 
+import java.io.IOException;
 import java.util.List;
 
 import by.tc.task5.dao.XmlDAO;
 import by.tc.task5.dao.xml.PlanetsDOMBuilder;
 import by.tc.task5.entity.Planet;
+import org.xml.sax.SAXException;
 
 public class XmlDAOImpl implements XmlDAO {
 
@@ -21,7 +23,7 @@ public class XmlDAOImpl implements XmlDAO {
 	}
 
 	@Override
-	public List<Planet> domParse() {
+	public List<Planet> domParse() throws IOException, SAXException {
 		planetsDOMBuilder.buildPlanets(filePath);
 		return planetsDOMBuilder.getPlanets();
 	}
