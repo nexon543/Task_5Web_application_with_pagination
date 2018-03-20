@@ -8,6 +8,7 @@
 </head>
 <body>
 Please select parse to get data:
+<br/>
 <form action="PageController" method="get">
 <input type="hidden" name="command" value="xmlparser" />
 <input type="radio" id="parserType1" name="xmlParserType" value="DOM" />
