@@ -7,8 +7,6 @@ import by.tc.task5.entity.Planet;
 import org.xml.sax.SAXException;
 
 public interface XmlDAO {
-	List <Planet> saxParse(String filePath);
-	List <Planet> domParse(String filePath) throws IOException, SAXException;
-	List <Planet> staxParse(String filePath);
+	List <Planet> parse(String filePath) throws IOException, SAXException;
 	
 }

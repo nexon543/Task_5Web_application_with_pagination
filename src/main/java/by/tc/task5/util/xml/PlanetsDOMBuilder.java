@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlanetsDOMBuilder {
+public class PlanetsDOMBuilder implements PlanetsBuilder {
 
     private List<Planet> planets;
     private DocumentBuilder documentBuilder;
