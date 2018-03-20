@@ -1,4 +1,4 @@
-package by.tc.task5.dao.xml;
+package by.tc.task5.util.xml;
 
 import by.tc.task5.entity.Planet;
 import org.w3c.dom.Document;
