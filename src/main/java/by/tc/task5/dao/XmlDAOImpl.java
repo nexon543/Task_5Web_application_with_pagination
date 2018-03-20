@@ -10,26 +10,23 @@ import org.xml.sax.SAXException;
 
 public class XmlDAOImpl implements XmlDAO {
 
-	private String filePath;
 	private final PlanetsDOMBuilder planetsDOMBuilder=new PlanetsDOMBuilder();
 
-	public XmlDAOImpl(String filePath){
-		this.filePath=filePath;
-	}
+	public XmlDAOImpl(){}
 	@Override
-	public List<Planet> saxParse() {
+	public List<Planet> saxParse(String filePath) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<Planet> domParse() throws IOException, SAXException {
+	public List<Planet> domParse(String filePath) throws IOException, SAXException {
 		planetsDOMBuilder.buildPlanets(filePath);
 		return planetsDOMBuilder.getPlanets();
 	}
 
 	@Override
-	public List<Planet> staxParse() {
+	public List<Planet> staxParse(String filePath) {
 		// TODO Auto-generated method stub
 		return null;
 	}
