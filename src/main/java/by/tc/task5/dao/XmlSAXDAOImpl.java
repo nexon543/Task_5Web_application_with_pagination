@@ -2,7 +2,7 @@ package by.tc.task5.dao;
 
 import by.tc.task5.entity.Planet;
 import by.tc.task5.util.xml.PlanetsBuilder;
-import by.tc.task5.util.xml.PlanetsSAXBuilder;
+import by.tc.task5.util.xml.sax.PlanetsSAXBuilder;
 import org.xml.sax.SAXException;
 
 import java.io.IOException;

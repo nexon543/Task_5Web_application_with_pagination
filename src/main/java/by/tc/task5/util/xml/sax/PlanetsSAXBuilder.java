@@ -1,6 +1,7 @@
-package by.tc.task5.util.xml;
+package by.tc.task5.util.xml.sax;
 
 import by.tc.task5.entity.Planet;
+import by.tc.task5.util.xml.PlanetsBuilder;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;

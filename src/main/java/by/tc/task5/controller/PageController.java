@@ -1,6 +1,6 @@
 package by.tc.task5.controller;
 
-import by.tc.task5.dao.XmlParserType;
+import by.tc.task5.util.xml.XmlParserType;
 import by.tc.task5.entity.Planet;
 import by.tc.task5.service.XmlDataService;
 import by.tc.task5.service.XmlDataServiceImpl;
