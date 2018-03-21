@@ -8,11 +8,11 @@ import by.tc.task5.util.xml.PlanetsDOMBuilder;
 import by.tc.task5.entity.Planet;
 import org.xml.sax.SAXException;
 
-public class XmlDAOImpl implements XmlDAO {
+public class XmlDOMDAOImpl implements XmlDAO {
 
 	private final PlanetsBuilder planetsDOMBuilder=new PlanetsDOMBuilder();
 
-	public XmlDAOImpl(){}
+	public XmlDOMDAOImpl(){}
 
 	@Override
 	public List<Planet> parse(String filePath) throws IOException, SAXException {
