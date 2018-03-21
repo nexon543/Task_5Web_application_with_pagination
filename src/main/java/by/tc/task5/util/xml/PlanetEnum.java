@@ -2,6 +2,7 @@ package by.tc.task5.util.xml;
 
 public enum PlanetEnum {
     PLANETS("planets"),
+    PLANET("planet"),
     DIAMETER("diameter"),
     NAME("name"),
     ORBITALPERIOD("orbitalPeriod"),

@@ -1,6 +1,7 @@
-package by.tc.task5.util.xml;
+package by.tc.task5.util.xml.impl.dom;
 
 import by.tc.task5.entity.Planet;
+import by.tc.task5.util.xml.PlanetsBuilder;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

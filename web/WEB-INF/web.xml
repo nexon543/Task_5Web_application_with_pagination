@@ -5,11 +5,11 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
   <display-name>Task5</display-name>
   <display-name>Task 5. Pagination</display-name>
     <servlet>
-        <servlet-name>FrontController</servlet-name>
+        <servlet-name>PageController</servlet-name>
         <servlet-class>by.tc.task5.controller.PageController</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>FrontController</servlet-name>
+        <servlet-name>PageController</servlet-name>
         <url-pattern>/PageController</url-pattern>
     </servlet-mapping>
     

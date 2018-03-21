@@ -1,4 +1,4 @@
-package by.tc.task5.util.xml.sax;
+package by.tc.task5.util.xml.impl.sax;
 
 import by.tc.task5.entity.Planet;
 import by.tc.task5.util.xml.PlanetEnum;

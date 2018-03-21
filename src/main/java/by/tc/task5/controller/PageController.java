@@ -40,6 +40,7 @@ public class PageController extends HttpServlet {
         if (req.getParameter("currentPage") != null) {
             currentPage = Integer.parseInt(req.getParameter("currentPage"));
         }
+
         int recordsN = planets.size();
         int recordsPerPage = 5;
         int pagesN = recordsN / recordsPerPage;
