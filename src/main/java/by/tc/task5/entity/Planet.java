@@ -1,5 +1,7 @@
 package by.tc.task5.entity;
 
+import java.util.Objects;
+
 public class Planet {
     private String name;
     private int diameter;
@@ -19,13 +21,7 @@ public class Planet {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + diameter;
-        result = prime * result + ((name == null) ? 0 : name.hashCode());
-        result = prime * result + orbitalPeriod;
-        result = prime * result + yearOfDiscovering;
-        return result;
+        return Objects.hash(name, diameter, yearOfDiscovering, orbitalPeriod);
     }
 
     @Override
