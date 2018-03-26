@@ -7,6 +7,8 @@ import by.tc.task5.util.xml.impl.dom.PlanetsDOMBuilder;
 import by.tc.task5.util.xml.XmlParserType;
 import by.tc.task5.util.xml.impl.sax.PlanetsSAXBuilder;
 import by.tc.task5.util.xml.impl.stax.PlanetsStAXBuilder;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import java.io.IOException;
@@ -18,7 +20,7 @@ public class XmlDataServiceImpl implements XmlDataService {
 
     private Map<XmlParserType, XmlDAO> xmlDAOMap;
     private String filePath;
-
+    public static final Logger logger = LogManager.getLogger(XmlDataServiceImpl.class);
     public XmlDataServiceImpl(String filePath) {
         xmlDAOMap = new EnumMap<>(XmlParserType.class);
         xmlDAOMap.put(XmlParserType.DOM, new XmlDAOImpl(new PlanetsDOMBuilder()));

@@ -3,13 +3,13 @@
     <planet>
         <name>Mercury</name>
         <diameter>4880</diameter>
-        <orbitalPeriod>88</orbitalPeriod>
+        <orbitalPeriod>686</orbitalPeriod>
         <yearOfDiscovering>1631</yearOfDiscovering>
     </planet>
     <planet>
         <name>Earth</name>
         <diameter>488</diameter>
-        <orbitalPeriod>8</orbitalPeriod>
+        <orbitalPeriod>365</orbitalPeriod>
         <yearOfDiscovering>161</yearOfDiscovering>
     </planet>
 
@@ -30,13 +30,13 @@
     <planet>
         <name>Jupiter</name>
         <diameter>4880</diameter>
-        <orbitalPeriod>88</orbitalPeriod>
+        <orbitalPeriod>10475</orbitalPeriod>
         <yearOfDiscovering>1631</yearOfDiscovering>
     </planet>
     <planet>
         <name>Saturn</name>
         <diameter>488</diameter>
-        <orbitalPeriod>8</orbitalPeriod>
+        <orbitalPeriod>11</orbitalPeriod>
         <yearOfDiscovering>161</yearOfDiscovering>
     </planet>
 
